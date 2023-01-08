@@ -8,6 +8,16 @@
 
 config_version=5
 
+_global_script_classes=[{
+"base": "Resource",
+"class": &"Item",
+"language": &"GDScript",
+"path": "res://items/item.gd"
+}]
+_global_script_class_icons={
+"Item": ""
+}
+
 [application]
 
 config/name="ItemPickups"
