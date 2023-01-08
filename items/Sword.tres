@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cgkwghcmy4ixo"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://items/item.gd" id="1_8220o"]
+[ext_resource type="Script" path="res://items/Item.gd" id="1_8220o"]
 [ext_resource type="Texture2D" uid="uid://c3oqbf8b2siuo" path="res://assets/Sword.png" id="2_0ul8i"]
 
 [resource]
