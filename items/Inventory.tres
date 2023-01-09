@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://5df8qn0h0ua2"]
+
+[ext_resource type="Resource" path="res://items/Sword.tres" id="1_moihy"]
+[ext_resource type="Script" path="res://items/Inventory.gd" id="1_w43ie"]
+[ext_resource type="Resource" path="res://items/Potion.tres" id="2_y4r7o"]
+[ext_resource type="Resource" uid="uid://bxycorx6j277g" path="res://items/DiamondRing.tres" id="3_uq2ot"]
+[ext_resource type="Resource" path="res://items/TallShield.tres" id="4_laey1"]
+
+[resource]
+script = ExtResource("1_w43ie")
+items = [ExtResource("1_moihy"), ExtResource("2_y4r7o"), ExtResource("2_y4r7o"), ExtResource("3_uq2ot"), null, null, ExtResource("4_laey1"), null, null]

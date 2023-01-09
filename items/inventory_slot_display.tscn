@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv2bg0be77fjf"]
+
+[ext_resource type="Script" path="res://items/inventory_slot_display.gd" id="1_14mjs"]
+[ext_resource type="Texture2D" uid="uid://dmonho82octm0" path="res://assets/EmptyInventorySlot.png" id="1_fq1uu"]
+
+[node name="InventorySlotDisplay" type="CenterContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_14mjs")
+
+[node name="ItemTextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(18, 18)
+offset_left = 311.0
+offset_top = 171.0
+offset_right = 329.0
+offset_bottom = 189.0
+texture = ExtResource("1_fq1uu")
+stretch_mode = 3

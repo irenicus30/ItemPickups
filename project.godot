@@ -10,11 +10,17 @@ config_version=5
 
 _global_script_classes=[{
 "base": "Resource",
+"class": &"Inventory",
+"language": &"GDScript",
+"path": "res://items/Inventory.gd"
+}, {
+"base": "Resource",
 "class": &"Item",
 "language": &"GDScript",
 "path": "res://items/Item.gd"
 }]
 _global_script_class_icons={
+"Inventory": "",
 "Item": ""
 }
 
@@ -26,9 +32,10 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=320
-window/size/viewport_height=180
+window/size/viewport_width=640
+window/size/viewport_height=360
 window/stretch/mode="canvas_items"
+window/stretch/scale=2.0
 
 [rendering]
 

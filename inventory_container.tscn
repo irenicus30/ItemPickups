@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bbkwtb4pxv3ui"]
+[gd_scene load_steps=2 format=3 uid="uid://bbkwtb4pxv3ui"]
+
+[ext_resource type="PackedScene" uid="uid://croxcppgdcaxc" path="res://items/inventory_display.tscn" id="1_u5ewv"]
 
 [node name="InventoryContainer" type="ColorRect"]
 anchors_preset = 15
@@ -9,9 +11,19 @@ grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
-layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="InventoryDisplay" parent="CenterContainer" instance=ExtResource("1_u5ewv")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 289.0
+offset_top = 149.0
+offset_right = 351.0
+offset_bottom = 211.0
+grow_horizontal = 1
+grow_vertical = 1
