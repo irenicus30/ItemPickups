@@ -2,7 +2,7 @@ extends Resource
 class_name Inventory
 
 
-signal item_changed(indexes)
+signal items_changed(indexes)
 
 @export var items : Array = [
     null, null, null,

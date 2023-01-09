@@ -5,7 +5,7 @@ var inventory = preload("res://items/Inventory.tres")
 
 
 func _ready():
-    inventory.item_changed.connect(_on_items_changed)
+    inventory.items_changed.connect(_on_items_changed)
     update_inventory_display()
 
 

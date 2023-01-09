@@ -9,32 +9,100 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 columns = 3
 script = ExtResource("1_wr45k")
 
 [node name="InventorySlotDisplay" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 211.0
+offset_bottom = 118.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay2" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 215.0
+offset_right = 426.0
+offset_bottom = 118.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay3" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 430.0
+offset_right = 640.0
+offset_bottom = 118.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay4" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 122.0
+offset_right = 211.0
+offset_bottom = 239.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay5" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 215.0
+offset_top = 122.0
+offset_right = 426.0
+offset_bottom = 239.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay6" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 430.0
+offset_top = 122.0
+offset_right = 640.0
+offset_bottom = 239.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay7" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 243.0
+offset_right = 211.0
+offset_bottom = 360.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay8" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 215.0
+offset_top = 243.0
+offset_right = 426.0
+offset_bottom = 360.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="InventorySlotDisplay9" parent="." instance=ExtResource("1_wvv6u")]
-layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 430.0
+offset_top = 243.0
+offset_right = 640.0
+offset_bottom = 360.0
+grow_horizontal = 1
+grow_vertical = 1

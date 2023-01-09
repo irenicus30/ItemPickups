@@ -27,6 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="ItemPickups"
+run/main_scene="res://inventory_container.tscn"
 config/features=PackedStringArray("4.0", "GL Compatibility")
 config/icon="res://icon.svg"
 
